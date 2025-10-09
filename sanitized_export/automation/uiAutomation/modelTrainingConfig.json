@@ -1,0 +1,19 @@
+{ 
+      "Time series forecasting": {
+        "source" : "Google Sheets",
+        "modelName" : "<TSF_MODEL_NAME>",
+        "ddsName": "<TSF_DDS_NAME>",
+        "sqlTransformation": "<TSF_SQL_TRANSFORMATION>",
+        "filePath" : "time_series_forecasting/",
+        "targetColumn" : "sales",
+        "tableNameInDB": "store_daily_sales",
+        "timestampColumn" : "sale_date",
+        "groupColumn" : "--",
+        "itemIDColumn" : "product_id",
+      "streamName": "store_daily_sales"
+      },
+      "performanceMetricsFilePath" : "performance_measures.csv",
+      "trainingArtifactsFilePath" : "/training_artifacts/",
+      "validationArtifactsFilePath": "/validation_artifacts/",
+      "fileExtension" : "csv"
+}
