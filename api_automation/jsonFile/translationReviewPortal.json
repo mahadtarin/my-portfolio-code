@@ -1,0 +1,22 @@
+{
+    "dev":{
+        "englishReviewCreds":{
+        "email": "<DEV_ENGLISH_REVIEW_EMAIL>",
+        "password": "<DEV_ENGLISH_REVIEW_PASSWORD>"
+    },
+    "translationReviewCreds":{
+        "email": "<DEV_TRANSLATION_REVIEW_EMAIL>",
+        "password": "<DEV_TRANSLATION_REVIEW_PASSWORD>"
+    }
+    },
+    "staging":{
+        "englishReviewCreds":{
+        "email": "<STAGING_ENGLISH_REVIEW_EMAIL>",
+        "password": "<STAGING_ENGLISH_REVIEW_PASSWORD>"
+    },
+    "translationReviewCreds":{
+        "email": "<STAGING_TRANSLATION_REVIEW_EMAIL>",
+        "password": "<STAGING_TRANSLATION_REVIEW_PASSWORD>"
+    }
+    }
+}

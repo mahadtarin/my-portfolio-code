@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "types": [
+      "node",
+      "mocha"
+    ],
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "resolveJsonModule": true,
+    "baseUrl": "main",
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
+}
