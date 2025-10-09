@@ -178,3 +178,4 @@ comparison_report.*
 verification_report.*
 *_links_report.html
 landscape_verification.log
+mochawesome-report/
